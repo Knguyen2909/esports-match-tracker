@@ -17,7 +17,7 @@ export default function TeamsPage() {
         method: 'GET',
         headers: {
           accept: 'application/json',
-          authorization: 'Bearer kx7Nz5bxW_BViOpaQPONG-YgD73HKGg2rQTywVSwFmNamNP4DIQ'
+          authorization: `Bearer ${process.env.PANDASCORE_API_KEY}`,
         }
       };
 
